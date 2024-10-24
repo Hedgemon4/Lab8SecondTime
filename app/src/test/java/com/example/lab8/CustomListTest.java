@@ -23,7 +23,7 @@ public class CustomListTest {
         int expectedCountBeforeAdd = 0;
         assertEquals(expectedCountBeforeAdd, list.getCount(), "Count should have been zero.");
         City cityToAdd = new City("Nanton", "AB");
-        list.add(cityToAdd);
+        list.addCity(cityToAdd);
 
         // Check that the count of cities increased by one
         int expectedCountAfterAdd = 1;
